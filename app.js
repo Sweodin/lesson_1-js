@@ -1,21 +1,28 @@
-// active state to use console.log
+// Just a console.log function
 
-// console.log("Hello world!"); 
+console.log("Hello world!");
 
-// active state to use stored information
+// A console.log with variables
 
- // let x = "Peter Gustafsson";
- // let z = "39 years old";
- // let y = "Black";
+let name = "Peter Gustafsson";
+let age = 39;
+let favColor = "Black";
 
- // console.log(x + " is " + z + " years old and his favorite color is " + y);
+console.log(
+  `${name} is ${age} years old and his favorite color is ${favColor}.`
+);
 
- // active state to do math with console.log
+// A console.log with multiple variables math
 
-// let a = 1;
+let num1 = 10;
+let num2 = 5;
 
-// let b = 4;
+let addition = num1 + num2;
+let subtraction = num1 - num2;
+let multiplication = num1 * num2;
+let division = num1 / num2;
 
-// let c = 7;
-
-// console.log();
+console.log(`Addition: ${num1} + ${num2} = ${addition}`);
+console.log(`Subtraction: ${num1} - ${num2} = ${subtraction}`);
+console.log(`Multiplication: ${num1} * ${num2} = ${multiplication}`);
+console.log(`Division: ${num1} / ${num2} = ${division}`);
